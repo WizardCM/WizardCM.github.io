@@ -1,0 +1,1 @@
+<p style="max-width: 290px; max-height: 63px; overflow: hidden; min-height: 63px;">So I've started organising my collection of VPS' and soon going to launch a Tekkit server! ;D</p>
