@@ -34,7 +34,7 @@ function css_browser_selector(u){var ua=u.toLowerCase(),is=function(t){return ua
 			</div>
 			<h4>Recently listened to</h4>
 			<div style="margin-top:-13px; margin-right:-2px; float:right; width:16px; height:16px">
-				<img src="wp-content/themes/perdana/tiles/lastfm.png" width="16px" height="16px" class="smallicon">
+				<img src="tiles/lastfm.png" width="16px" height="16px" class="smallicon">
 			</div>
 			</div></div>
 
