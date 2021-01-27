@@ -12,7 +12,7 @@ module.exports = {
 		[
 			'vuepress-plugin-clean-urls',
 			{
-				normalSuffix: '.html',
+				normalSuffix: '',
 				indexSuffix: '/',
 				notFoundPath: '/',
 			},
@@ -24,9 +24,15 @@ module.exports = {
 					{
 						id: 'post',
 						dirname: 'posts',
-						path: '/post.html'
+						path: '/blog',
+						layout: 'Layout',
+						itemLayout: 'Layout',
+						itemPermalink: '/post/:slug'
 					}
-				]
+				],
+				feed: {
+				 canonical_base: 'https://wizardcm.com',
+				},
 			}
 		]
 	]

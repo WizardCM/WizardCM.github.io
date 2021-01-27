@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://wizardcm.com</id>
+    <title>WizardCM</title>
+    <updated>2021-01-27T22:31:18.593Z</updated>
+    <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+    <link rel="alternate" href="https://wizardcm.com"/>
+    <link rel="self" href="https://wizardcm.com/feed.atom"/>
+    <subtitle>Hey hey, I&apos;m Matt. I&apos;m a front end web developer specialising in React (though this site&apos;s written in Vue). In my spare time I contribute to @OBSProject</subtitle>
+    <entry>
+        <title type="html"><![CDATA[I consider myself more a consumer than a creator]]></title>
+        <id>https://wizardcm.com/post/aphantasia/</id>
+        <link href="https://wizardcm.com/post/aphantasia/">
+        </link>
+        <updated>2019-07-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The title of this post is a sentence that has crossed my mind and my lips a few times in the past couple of years. Until this week, I didn’t understand how accurate I was.]]></summary>
+    </entry>
+</feed>

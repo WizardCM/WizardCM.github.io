@@ -4,11 +4,11 @@ date: 2019-07-04
 author: Matt
 ---
 
-The title of this post is a sentence that has crossed my mind and my lips a few times in the past couple of years. Until this week, I didn’t understand how accurate I was. There are many different Kratom vendors, is important that you find the best kratom vendors, for this you can follow the advises of [kratom-masters](https://kratommasters.com/virginia-botanical-review/).
+The title of this post is a sentence that has crossed my mind and my lips a few times in the past couple of years. Until this week, I didn’t understand how accurate I was.
 
 Most people can think of something, say, an apple, and visually imagine it in their mind. They can manipulate how it looks, where it is and what it’s doing. [Until this week](https://twitter.com/WizardCM/status/1146277857804640256), I thought “visually” meant metaphorically. Theoretically. But no, when people say visually, they actually mean visually.
 
-The lack of the ability to see in that way? The inability to use “the mind’s eye”? That’s called **Aphantasia**. And I have it. If you are planing yo buy a car check first the [5 Laws That’ll Help the Deals On New Transit Custom Industry](https://www.grandtournation.com/cars/check-out-this-custom-ford-transit-camper-worth-77000/).
+The lack of the ability to see in that way? The inability to use “the mind’s eye”? That’s called **Aphantasia**. And I have it.
 
 << TWITTER EMBED >>
 
@@ -22,7 +22,7 @@ Most friends that I’ve asked have answered in the 6-8 range, including my brot
 
 I spent a lot of time on Wednesday talking to friends and reading stories from other people who are on both ends of the scale. All of it explains so much about how I think and how I go about things.
 
-If someone tells me “imagine an apple”, I can of course tell you what an apple looks like. That it’s red, that it likely has a stem. Can I imagine it _somewhere_, change its shape, colour, texture? No, because I don’t actually see it. I’m drawing on memory, past experience, to define the apple using words and descriptions. I can’t manipulate my past experience, not even on-demand, and so the apple that I’m thinking of doesn’t change. It doesn’t even have detail. Kratom is not a substance that is commonly known throughout the world, you can check more detail that were made [by kratommasters](https://kratommasters.com/what-are-stem-and-vein-kratom/) about kratom
+If someone tells me “imagine an apple”, I can of course tell you what an apple looks like. That it’s red, that it likely has a stem. Can I imagine it _somewhere_, change its shape, colour, texture? No, because I don’t actually see it. I’m drawing on memory, past experience, to define the apple using words and descriptions. I can’t manipulate my past experience, not even on-demand, and so the apple that I’m thinking of doesn’t change. It doesn’t even have detail.
 
 << TWITTER EMBED >>
 
