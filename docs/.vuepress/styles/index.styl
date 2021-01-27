@@ -1,0 +1,118 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+
+.header {
+	padding: 5px 45px;
+    margin: 0px;
+    background-color: #A10;
+}
+
+.header h1 {
+	    margin: 6px 0px;
+    padding: 0px;
+    color: white !important;
+    font-size: 38px;
+	}
+
+	.pages ul li {
+		list-style: none;
+    padding: 2px 4px;
+    margin: 0px;
+	display: inline-block;
+	}
+
+	.header a {
+		display: block;
+    padding: 3px 7px;
+    margin: 0px;
+    text-transform: uppercase;
+    color: #DEDEDE;
+    transition: .3s;
+	}
+
+	.header a:hover {
+		text-decoration: none;
+    color: white;
+	}
+
+	body{width:100% !important; margin:0 !important; padding:0 !important; line-height:1.4; word-spacing:1.1pt; letter-spacing:0.2pt; font-family:Segoe UI, Arial, sans-serif; color:#000; font-size:11pt}
+
+a, a:visited{text-decoration:none; color:#aa1100}
