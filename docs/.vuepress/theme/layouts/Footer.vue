@@ -1,14 +1,16 @@
 <template>
   <section class="footer">
-    <div class="column">
+    <div class="column projects">
       <h3>Current Projects</h3>
       <ul v-for="project in projects">
         <li>
-          <a :href="project.link">{{ project.name }}</a>
+          <a :href="project.link" target="_blank" rel="noopener">
+            {{ project.name }}
+          </a>
         </li>
       </ul>
     </div>
-    <div class="column">
+    <div class="column posts">
       <h3>Recent Blog Posts</h3>
       <ul v-for="post in posts">
         <li>
@@ -16,14 +18,17 @@
         </li>
       </ul>
     </div>
-	<div class="column">
-		<h3>Contact Me</h3>
-		<div class="tiles">
-			<div class="tile">
-				Twitter
-			</div>
-		</div>
-	</div>
+    <div class="column tiles">
+      <h3>Contact Me</h3>
+      <div class="tiles">
+        <div class="tile">
+          <div class="tilelabel">Twitter</div>
+        </div>
+        <div class="tile">
+          <div class="tilelabel">Email</div>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -36,25 +41,96 @@ export default {
         {
           name: "OBS Studio (Community Contributor)",
           link: "https://obsproject.com",
+          tooltip: "",
         },
         {
           name: "07craft, RuneScape in Minecraft",
           link: "https://07craft.com",
-		},
-		{
-			name: 'Worldwide Minecraft Alliance',
-			link: "https://wma.im"
-		}
-	  ],
-	  posts: []
+          tooltip:
+            "Building the world of Gielinor in Minecraft, block by block.",
+        },
+        {
+          name: "Worldwide Minecraft Alliance",
+          link: "https://wma.im",
+          tooltip: "",
+        },
+      ],
+      // TODO Fetch these from another spot
+      posts: [
+        {
+          title: '"I consider myself more a consumer than a creator"',
+          link: "",
+        },
+      ],
     };
   },
 };
 </script>
 
-<style scoped>
-	.column {
-		display: inline-block;
-		vertical-align: top;;
-	}
+<style lang="scss" scoped>
+.footer {
+  position: relative;
+  box-sizing: content-box;
+  .column {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+    padding: 20px 10px;
+    box-sizing: content-box;
+
+    &.projects {
+      width: 290px;
+    }
+    &.posts {
+      width: 380px;
+    }
+    &.tiles {
+      width: 230px;
+      position: absolute;
+      right: 0;
+      .tile {
+        background: #aa1100;
+        width: 106px;
+        height: 106px;
+        float: left;
+        margin-top: 3px;
+        vertical-align: text-bottom;
+        color: white;
+        .tilelabel {
+          font-size: 12px;
+          position: absolute;
+          float: left;
+          margin-top: 85px;
+          margin-left: 5px;
+        }
+		&:not(:last-child) {
+			margin-right: 5px;
+		}
+      }
+    }
+
+    h3 {
+      text-transform: lowercase;
+      font-size: 22px;
+      margin: 0px 0px 10px;
+      font-weight: normal;
+    }
+
+    ul {
+      margin: 0px;
+      padding: 0px;
+      li {
+        list-style: none;
+        margin: 2px 0px;
+        padding: 0px 0px 0px 20px;
+        a {
+          color: black;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
 </style>

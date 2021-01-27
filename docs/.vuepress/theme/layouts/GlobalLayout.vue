@@ -2,13 +2,15 @@
 <template>
   <div id="global-layout">
     <Header />
-    <component :is="layout" />
-    <Footer />
+    <div class="wrap">
+      <component :is="layout" />
+      <Footer />
+    </div>
   </div>
 </template>
 
 <script>
-import Header from './Header';
+import Header from "./Header";
 import Footer from "./Footer";
 
 export default {
@@ -30,3 +32,10 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.wrap {
+  margin: 0px auto;
+  padding: 0 40px;
+}
+</style>
