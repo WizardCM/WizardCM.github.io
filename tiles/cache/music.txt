@@ -1,3 +1,0 @@
-<p style="width: 550px; max-height: 21px; overflow: hidden !important;"></p>
-<p style="width: 400px; max-height: 21px; overflow: hidden !important;"></p>
-<p>Right now</p>
