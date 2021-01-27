@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/WizardCM/WizardCM.github.io#readme",
   "devDependencies": {
+    "sass": "^1.32.5",
+    "sass-loader": "^10.1.1",
     "vuepress": "^1.8.0"
   }
 }
