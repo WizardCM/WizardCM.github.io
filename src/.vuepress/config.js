@@ -12,7 +12,7 @@ module.exports = {
 		[
 			'vuepress-plugin-clean-urls',
 			{
-				normalSuffix: '',
+				normalSuffix: '.html',
 				indexSuffix: '/',
 				notFoundPath: '/',
 			},
@@ -24,7 +24,7 @@ module.exports = {
 					{
 						id: 'post',
 						dirname: 'posts',
-						path: '/blog',
+						path: '/blog.html',
 						layout: 'Layout',
 						itemLayout: 'Layout',
 						itemPermalink: '/post/:slug'

@@ -1,3 +1,7 @@
+---
+subnav: 'me'
+---
+
 # Computers
 
 ## Custom-built Gaming Rig (2019)

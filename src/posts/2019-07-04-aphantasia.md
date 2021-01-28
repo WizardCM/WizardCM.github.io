@@ -1,5 +1,5 @@
 ---
-title: "I consider myself more a consumer than a creator"
+title: '"I consider myself more a consumer than a creator"'
 date: 2019-07-04
 author: Matt
 ---

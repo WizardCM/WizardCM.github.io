@@ -1,5 +1,11 @@
 <template>
   <div>
-    <Content id="posts" />
+    {{ $pagination.pages }}
+    <page-card
+      v-for="page in $pagination.pages"
+      :key="page.key"
+      :page="page"
+      orientation="horizontal"
+    />
   </div>
 </template>

@@ -12,9 +12,9 @@
     </div>
     <div class="column posts">
       <h3>Recent Blog Posts</h3>
-      <ul v-for="post in posts">
+      <ul v-for="post in $site.pages" v-if="post.id === 'post'">
         <li>
-          <a :href="post.link">{{ post.title }}</a>
+          <a :href="post.regularPath">{{ post.frontmatter.title }}</a>
         </li>
       </ul>
     </div>
@@ -54,14 +54,7 @@ export default {
           link: "https://wma.im",
           tooltip: "",
         },
-      ],
-      // TODO Fetch these from another spot
-      posts: [
-        {
-          title: '"I consider myself more a consumer than a creator"',
-          link: "",
-        },
-      ],
+      ]
     };
   },
 };
