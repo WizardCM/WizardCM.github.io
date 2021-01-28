@@ -6,10 +6,17 @@
     "description": "Hey hey, I'm Matt. I'm a front end web developer specialising in React (though this site's written in Vue). In my spare time I contribute to @OBSProject",
     "items": [
         {
+            "id": "https://wizardcm.com/post/vue/",
+            "url": "https://wizardcm.com/post/vue/",
+            "title": "Oh look, a new site - in VueJS!",
+            "summary": "It has been a while since I did anything meaninful with my website. After high school, I just didn't have much use for this site. I still don't!",
+            "date_modified": "2020-01-28T00:00:00.000Z"
+        },
+        {
             "id": "https://wizardcm.com/post/aphantasia/",
             "url": "https://wizardcm.com/post/aphantasia/",
-            "title": "I consider myself more a consumer than a creator",
-            "summary": "The title of this post is a sentence that has crossed my mind and my lips a few times in the past couple of years. Until this week, I didn’t understand how accurate I was.",
+            "title": "\"I consider myself more a consumer than a creator\"",
+            "summary": "Most people can think of something, say, an apple, and visually imagine it in their mind. They can manipulate how it looks, where it is and what it’s doing. Until this week, I thought “visually” meant metaphorically. Theoretically. But no, when people say visually, they actually mean visually.",
             "image": "https://s.w.org/images/core/emoji/13.0.1/svg/1f642.svg",
             "date_modified": "2019-07-04T00:00:00.000Z"
         }
