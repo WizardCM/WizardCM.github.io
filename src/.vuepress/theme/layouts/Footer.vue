@@ -14,7 +14,7 @@
       <h3>Recent Blog Posts</h3>
       <ul v-for="post in $site.pages" v-if="post.id === 'post'">
         <li>
-          <a :href="post.regularPath">{{ post.frontmatter.title }}</a>
+          <a :href="post.path">{{ post.frontmatter.title }}</a>
         </li>
       </ul>
     </div>
