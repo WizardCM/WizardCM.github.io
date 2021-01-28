@@ -4,7 +4,12 @@
       <h3>Current Projects</h3>
       <ul v-for="project in projects">
         <li>
-          <a :href="project.link" target="_blank" rel="noopener">
+          <a
+            :href="project.link"
+            target="_blank"
+            rel="noopener"
+            v-bind:title="project.tooltip"
+          >
             {{ project.name }}
           </a>
         </li>
@@ -21,12 +26,18 @@
     <div class="column tiles">
       <h3>Contact Me</h3>
       <div class="tiles">
-        <div class="tile">
-          <div class="tilelabel">Twitter</div>
-        </div>
-        <div class="tile">
-          <div class="tilelabel">Email</div>
-        </div>
+        <a href="https://twitter.com/wizardcm" target="_blank" rel="noopener">
+          <div class="tile twitter">
+            <img :src="$withBase('/assets/twitter.png')" alt="Twitter icon" />
+            <div class="tilelabel">Twitter</div>
+          </div>
+        </a>
+        <a href="mailto:webmaster@wizardcm.com" target="_blank" rel="noopener">
+          <div class="tile email">
+            <img :src="$withBase('/assets/mailicon.png')" alt="Email icon" />
+            <div class="tilelabel">Email</div>
+          </div>
+        </a>
       </div>
     </div>
   </section>
@@ -41,7 +52,8 @@ export default {
         {
           name: "OBS Studio (Community Contributor)",
           link: "https://obsproject.com",
-          tooltip: "",
+          tooltip:
+            "Free and open source software for video recording and live streaming",
         },
         {
           name: "07craft, RuneScape in Minecraft",
@@ -52,16 +64,17 @@ export default {
         {
           name: "Worldwide Minecraft Alliance",
           link: "https://wma.im",
-          tooltip: "",
+          tooltip: "An Australian-hosted multi-world Minecraft server",
         },
-      ]
+      ],
     };
   },
 };
 </script>
 
-<style lang="scss" scoped>
-.footer {
+<style lang="scss">
+.footer,
+.sidebar {
   position: relative;
   box-sizing: content-box;
   .column {
@@ -84,14 +97,26 @@ export default {
       width: 230px;
       position: absolute;
       right: 0;
+      a {
+        display: inline-block;
+      }
       .tile {
         background: #aa1100;
         width: 106px;
         height: 106px;
-        float: left;
         margin-top: 3px;
         vertical-align: text-bottom;
         color: white;
+        img {
+          margin: 8px;
+          position: absolute;
+        }
+        &.twitter {
+          img {
+            padding-top: 9px;
+            padding-left: 13px;
+          }
+        }
         .tilelabel {
           font-size: 12px;
           position: absolute;
@@ -99,9 +124,6 @@ export default {
           margin-top: 85px;
           margin-left: 5px;
         }
-		&:not(:last-child) {
-			margin-right: 5px;
-		}
       }
     }
 

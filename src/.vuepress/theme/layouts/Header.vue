@@ -54,7 +54,8 @@ export default {};
     font-weight: normal;
   }
 
-  .pages {
+  .pages,
+  .subnav {
     ul {
       margin: 0;
       padding: 0px;
@@ -79,29 +80,19 @@ export default {};
       }
     }
   }
-
   .subnav {
     background-color: #ba4336;
     padding: 5px 45px;
     height: 23px;
     box-sizing: content-box;
     ul {
-      margin: 0;
-      padding: 0;
       li {
         list-style: none;
-        margin: 0;
         padding: 1px 2px;
         font-size: 14px;
-        display: inline-block;
         a {
-          color: #e3e3e3 !important;
+          color: #e3e3e3;
           padding: 1px 5px;
-          transition: 0.3s;
-          &:hover {
-            color: white !important;
-            text-decoration: none;
-          }
         }
       }
     }

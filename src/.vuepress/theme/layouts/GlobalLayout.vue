@@ -4,6 +4,7 @@
     <Header />
     <div class="wrap">
       <component :is="layout" />
+      <Sidebar />
       <Footer />
     </div>
   </div>
@@ -11,6 +12,7 @@
 
 <script>
 import Header from "./Header";
+import Sidebar from './Sidebar';
 import Footer from "./Footer";
 
 export default {
@@ -28,6 +30,7 @@ export default {
   },
   components: {
     Header,
+    Sidebar,
     Footer,
   },
 };

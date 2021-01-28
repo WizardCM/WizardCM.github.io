@@ -4,7 +4,7 @@
     <small class="meta" v-if="$page.id == 'post'">on <span>{{ postDate($page.frontmatter.date) }} </span> by <span>{{ $page.frontmatter.author }}</span> | 0 Comments</small>
     <div v-if="$pagination">
       <div v-for="page in $pagination.pages">
-        <h2><a v-bind:href="page.regularPath">{{ page.title }}</a></h2>
+        <h2><a v-bind:href="page.path">{{ page.title }}</a></h2>
         <small class="meta">on <span>{{ postDate(page.frontmatter.date) }} </span> by <span>{{ page.frontmatter.author }}</span></small>
         <div v-html="page.excerpt">
         </div>
@@ -28,9 +28,11 @@ export default {
 
 <style lang="scss">
 .content {
-  padding: 10px 15px !important;
-  margin-right: 0px !important;
+  padding: 10px 15px;
+  margin-right: 0px;
+  width: calc(100% - 340px);
   background: #eeeeee;
+  display: inline-block;
   h1 {
     margin: 0;
     font-weight: bold;
