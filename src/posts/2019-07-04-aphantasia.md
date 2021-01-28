@@ -10,6 +10,8 @@ Most people can think of something, say, an apple, and visually imagine it in th
 
 The lack of the ability to see in that way? The inability to use “the mind’s eye”? That’s called **Aphantasia**. And I have it.
 
+<!-- more -->
+
 << TWITTER EMBED >>
 
 Before you continue this blog post, watch this video. It explains the base concept much better than I can.

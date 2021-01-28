@@ -6,6 +6,8 @@
       <div v-for="page in $pagination.pages">
         <h2><a v-bind:href="page.regularPath">{{ page.title }}</a></h2>
         <small class="meta">on <span>{{ postDate(page.frontmatter.date) }} </span> by <span>{{ page.frontmatter.author }}</span></small>
+        <div v-html="page.excerpt">
+        </div>
       </div>
     </div>
     <Content v-else />

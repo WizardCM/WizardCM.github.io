@@ -11,7 +11,7 @@
       </ul>
     </div>
     <div class="column posts">
-      <h3>Recent Blog Posts</h3>
+      <h3><a href="/blog.html">Recent Blog Posts</a></h3>
       <ul v-for="post in $site.pages" v-if="post.id === 'post'">
         <li>
           <a :href="post.path">{{ post.frontmatter.title }}</a>
@@ -76,6 +76,9 @@ export default {
     }
     &.posts {
       width: 380px;
+      h3 a {
+        color: black;
+      }
     }
     &.tiles {
       width: 230px;
