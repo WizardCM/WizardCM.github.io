@@ -2,7 +2,7 @@
   <section class="sidebar">
     <div class="column github-events" v-if="githubEvents">
       <h3>GitHub Activity</h3>
-      <ul v-for="event in githubEvents">
+      <ul v-for="event in githubEvents" v-if="Object.keys(githubIcons).includes(event.type)">
         <li>
           <span
             v-html="githubIcon(event.type)"
@@ -23,10 +23,23 @@ export default {
     return {
       githubEvents: null,
       githubIcons: {
-        PushEvent: octicons["repo-push"],
+        // https://docs.github.com/en/developers/webhooks-and-events/github-event-types#in-this-article
+        CreateEvent: octicons["git-branch"],
+        ForkEvent: octicons["repo-forked"],
         IssueCommentEvent: octicons["comment"],
+        IssuesEvent: octicons["issue-opened"],
+        PublicEvent: octicons["repo"],
         PullRequestEvent: octicons["git-pull-request"],
+        PullRequestReviewCommentEvent: octicons["code-review"],
+        PushEvent: octicons["repo-push"],
+        ReleaseEvent: octicons["tag"],
+        WatchEvent: octicons["star"],
       },
+      githubPaths: {
+        PushEvent: '',
+        IssueCommentEvent: 'issue',
+        PullRequestEvent: ''
+      }
     };
   },
   methods: {
