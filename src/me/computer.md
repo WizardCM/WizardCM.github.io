@@ -4,7 +4,7 @@ subnav: 'me'
 
 # Computers
 
-## Custom-built Gaming Rig (2019)
+## Custom-built Gaming Rig (built 2019)
 
 **Case:** Fractal Design Define R6 USB-C Tempered Glass
 
@@ -15,7 +15,7 @@ subnav: 'me'
 **Graphics:** NVIDIA GeForce GTX 1080 Ti Founders Edition 11GB
 **Monitors:** Acer Predator X34, Dell U2412M, Dell P2210
 
-**Motherboard:** Asus ROG Strix X570-E Gami
+**Motherboard:** Asus ROG Strix X570-E Gaming
 **Power Supply:** Corsair RM750 Gold (750W)
 
 **SSD:** Samsung 850 EVO Series 500GB
@@ -33,6 +33,24 @@ subnav: 'me'
 **Memory:** 16GB Dual Channel DDR3
 **Graphics:** Intel(R) UHD Graphics 620, NVIDIA GeForce GTX 1050
 
-## VR Rig
+## VR Rig (built 2015)
+
+**Case:** Corsair Carbide SPEC-02 ATX Mid Tower
+
+**Operating System:** Windows 10 Home 64-bit
+
+**Processor:** Intel Core i7-4790 3.60 GHz
+**Memory:** G.SKILL Sniper 16GSR (2x8GB) &amp; Corsair Vengance Pro 16GB (2x8GB) DDR3
+**Graphics:** Asus GeForce GTX 970 Strix DirectCU II 4GB
+
+**Motherboard:** Asus Z97-A ATX LGA1150
+**Power Supply:** EVGA SuperNOVA 750W G2 Gold
 
 ## Home Server NUC
+
+**Operating System:** Ubuntu 20.04 LTS
+
+**Processor:** Intel Core i7-10710U
+**Memory:** Crucial CT8G4SFS8266 8GB @ 2666MHz
+
+**SSD:** Seagate BarraCuda 120 250GB
