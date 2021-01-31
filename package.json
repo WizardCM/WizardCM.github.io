@@ -20,6 +20,7 @@
   "devDependencies": {
     "@primer/octicons": "^11.2.0",
     "@vuepress/plugin-blog": "^1.9.4",
+    "@vuepress/plugin-search": "^1.8.0",
     "dayjs": "^1.10.4",
     "sass": "^1.32.5",
     "sass-loader": "^10.1.1",
