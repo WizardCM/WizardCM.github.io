@@ -2,7 +2,7 @@
 <template>
   <div id="global-layout">
     <Header />
-    <div class="wrap">
+    <div class="global-wrap">
       <component :is="layout" />
       <Sidebar />
       <Footer />
@@ -36,9 +36,12 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.wrap {
+<style lang="scss">
+.global-wrap {
   margin: 0px auto;
   padding: 0 40px;
+}
+@media screen and (max-width: 700px) {
+
 }
 </style>

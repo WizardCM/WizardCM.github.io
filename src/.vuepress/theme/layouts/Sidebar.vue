@@ -114,4 +114,11 @@ export default {
     }
   }
 }
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: auto;
+    margin-left: unset;
+    display: unset;
+  }
+}
 </style>

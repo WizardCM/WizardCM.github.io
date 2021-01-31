@@ -43,7 +43,11 @@ export default {
   }
   p {
     margin: 15px 0px;
-    white-space: pre-wrap;
+  }
+}
+@media screen and (max-width: 700px) {
+  .content {
+    width: 100%;
   }
 }
 </style>

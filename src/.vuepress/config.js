@@ -46,5 +46,13 @@ module.exports = {
 				searchMaxSuggestions: 10
 			}
 		]
-	]
+	],
+	configureWebpack: (config, isServer) => {
+		if (!isServer) {
+			// Override hashed filenames to simplify diff
+			// TODO Give the chunks better names
+			config.output.filename = "assets/js/[name].js";
+			config.plugins[1].chunkFilename = "assets/css/[id].styles.css";
+		}
+	}
 };

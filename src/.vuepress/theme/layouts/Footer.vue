@@ -151,4 +151,13 @@ export default {
     }
   }
 }
+@media screen and (max-width: 700px) {
+  .footer {
+    .column {
+      width: auto !important;
+      position: unset !important;
+      right: unset !important;
+    }
+  }
+}
 </style>

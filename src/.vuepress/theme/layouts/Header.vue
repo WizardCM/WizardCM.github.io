@@ -140,4 +140,12 @@ export default {
     }
   }
 }
+
+@media screen and (max-width: 700px) {
+  .header {
+    .search-box {
+      display: none;
+    }
+  }
+}
 </style>
