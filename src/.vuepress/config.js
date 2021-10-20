@@ -42,6 +42,12 @@ module.exports = {
 			}
 		],
 		[
+			'@vuepress/google-analytics',
+			{
+				'ga': 'UA-27365166-1'
+			}
+		],
+		[
 			'@vuepress/search', {
 				searchMaxSuggestions: 10
 			}

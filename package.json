@@ -20,6 +20,7 @@
   "devDependencies": {
     "@primer/octicons": "^16.0.0",
     "@vuepress/plugin-blog": "^1.9.4",
+    "@vuepress/plugin-google-analytics": "^1.8.2",
     "@vuepress/plugin-search": "^1.8.0",
     "dayjs": "^1.10.7",
     "npm-check-updates": "^11.8.5",
