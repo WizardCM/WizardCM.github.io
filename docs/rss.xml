@@ -4,10 +4,21 @@
         <title>WizardCM</title>
         <link>https://wizardcm.com</link>
         <description>Hey hey, I&apos;m Matt. I&apos;m a front end web developer specialising in React (though this site&apos;s written in Vue). In my spare time I contribute to @OBSProject</description>
-        <lastBuildDate>Wed, 20 Oct 2021 09:47:51 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 Apr 2022 00:41:26 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://wizardcm.com/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA["I consider myself more a consumer than a creator"]]></title>
+            <link>https://wizardcm.com/post/aphantasia/</link>
+            <guid>https://wizardcm.com/post/aphantasia/</guid>
+            <pubDate>Thu, 04 Jul 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[The title of this post is a sentence that has crossed my mind and my lips a few times in the past couple of years. Until this week, I didn’t understand how accurate I was.
+Most people can think of something, say, an apple, and visually imagine it in their mind. They can manipulate how it looks, where it is and what it’s doing. Until this week, I thought “visually” meant metaphorically. Theoretically. But no, when people say visually, they actually mean visually.
+The lack of the ability to see in that way? The inability to use “the mind’s eye”? That’s called Aphantasia. And I have it.]]></description>
+            <enclosure url="https://s.w.org/images/core/emoji/13.0.1/svg/1f642.svg">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[Oh look, a new site - in VueJS!]]></title>
             <link>https://wizardcm.com/post/vue/</link>
@@ -19,17 +30,6 @@ This site had been running WordPress for the longest time, and its database was 
 After a chat with a friend, I decided - I've been meaning to make something meaningful in VueJS for a while (at work I'm exclusively using React), so why not remake my website. Same design, significantly simpler design. Even better - you can browse both the source &amp; the compiled site on GitHub. The structure is all HTML Vue templates, but the pages themselves are originally written in Markdown. Why complicate things, you know?
 The only thing really missing is the 'Blog' list, though as I don't post much I'll just leave it exclusively in the footer.
 Final job for the core design - a dynamic sidebar. 😉]]></description>
-        </item>
-        <item>
-            <title><![CDATA["I consider myself more a consumer than a creator"]]></title>
-            <link>https://wizardcm.com/post/aphantasia/</link>
-            <guid>https://wizardcm.com/post/aphantasia/</guid>
-            <pubDate>Thu, 04 Jul 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[The title of this post is a sentence that has crossed my mind and my lips a few times in the past couple of years. Until this week, I didn’t understand how accurate I was.
-Most people can think of something, say, an apple, and visually imagine it in their mind. They can manipulate how it looks, where it is and what it’s doing. Until this week, I thought “visually” meant metaphorically. Theoretically. But no, when people say visually, they actually mean visually.
-The lack of the ability to see in that way? The inability to use “the mind’s eye”? That’s called Aphantasia. And I have it.]]></description>
-            <enclosure url="https://s.w.org/images/core/emoji/13.0.1/svg/1f642.svg">
-            </enclosure>
         </item>
     </channel>
 </rss>
