@@ -28,7 +28,7 @@ subnav: 'me'
 
 ## Microsoft Surface Book 2 – [Validated](https://valid.x86.fr/w3gabv)
 
-**Operating System:** Windows 11 Pro 64-bit
+**Operating System:** Windows 11 Pro 64-bit (Insider Dev)
 **Processor:** Intel Core i7-8650U 1.90 GHz
 **Memory:** 16GB Dual Channel DDR3
 **Graphics:** Intel(R) UHD Graphics 620, NVIDIA GeForce GTX 1050
@@ -41,10 +41,10 @@ subnav: 'me'
 
 **Processor:** Intel Core i7-4790 3.60 GHz
 **Memory:** G.SKILL Sniper 16GSR (2x8GB) &amp; Corsair Vengance Pro 16GB (2x8GB) DDR3
-**Graphics:** Asus GeForce GTX 970 Strix DirectCU II 4GB
+**Graphics:** NVIDIA GeForce GTX 1060 6GB
 
 **Motherboard:** Asus Z97-A ATX LGA1150
-**Power Supply:** EVGA SuperNOVA 750W G2 Gold
+**Power Supply:** Strider Gold S Series (750W)
 
 ## Home Server NUC
 
@@ -54,3 +54,10 @@ subnav: 'me'
 **Memory:** Crucial CT8G4SFS8266 8GB @ 2666MHz
 
 **SSD:** Seagate BarraCuda 120 250GB
+
+## Mac mini 2020
+
+**Operating System:** macOS Big Sur 11.6
+
+**Processor:** Apple M1
+**Memory:** 8GB
