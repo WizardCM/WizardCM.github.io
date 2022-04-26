@@ -40,6 +40,7 @@
         </a>
       </div>
     </div>
+    <a rel="me" href="https://mastodon.technology/@WizardCM"></a>
   </section>
 </template>
 
