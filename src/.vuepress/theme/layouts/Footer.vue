@@ -40,7 +40,7 @@
         </a>
       </div>
     </div>
-    <a rel="me" href="https://mastodon.technology/@WizardCM"></a>
+    <a rel="me" href="https://hachyderm.io/@WizardCM"></a>
   </section>
 </template>
 
