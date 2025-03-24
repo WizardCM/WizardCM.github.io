@@ -4,7 +4,7 @@
         <title>WizardCM</title>
         <link>https://wizardcm.com</link>
         <description>Hey hey, I&apos;m Matt. I&apos;m a front end web developer specialising in React (though this site&apos;s written in Vue). In my spare time I contribute to @OBSProject</description>
-        <lastBuildDate>Tue, 05 Nov 2024 12:29:34 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Mar 2025 09:29:42 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://wizardcm.com/feed.atom" rel="self" type="application/rss+xml"/>
